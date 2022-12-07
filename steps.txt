@@ -1,0 +1,7 @@
+
+1. Configure Store. - Done.
+2. Add provider with store. - Done.
+3. Add Reducer. - Done.
+4. Configure actions. - Done.
+5. dispatch actions. - Done.
+6. read data using selectors.
