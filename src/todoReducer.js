@@ -17,7 +17,7 @@ export const todoSlice = createSlice({
         },
         update:(state, action)=>{
             console.log(action.payload);
-            state.value.push(action.payload);
+           state.value[action.payload.index]=action.payload.text;
         }
     }
 });
