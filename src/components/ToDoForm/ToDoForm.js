@@ -10,12 +10,12 @@ function ToDoForm() {
 
   return (
     <div>
-      <form>
+      <div>
         <input value={value} onInput={(e)=>{setValue(e.target.value)}} type="text" className="form-control" />
         <button type="submit" onClick={()=>{dispatch(add(value))}} className="float-end mt-2 btn btn-success">
           Add
         </button>
-      </form>
+      </div>
     </div>
   );
 }
